@@ -1,12 +1,12 @@
 import { useState } from 'react'
 // import carImage1 from './assets/car-1.jpg';
 
-import './App.css'
+// import './App.css'
 
 
 
 function Card(props) {
-  const [count, setCount] = useState(0)
+//   const [count, setCount] = useState(0)
 
   return (
     <div>
