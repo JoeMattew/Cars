@@ -11,9 +11,9 @@ function Card(props) {
   return (
     <div>
     <div className='avatar--pictureBox'>
-    <img src={props.img} className='avatar--picture'/>
-    <h3>{props.nameTag}</h3>
-    <p>{props.year}</p>
+    <img src={props.car.img} className='avatar--picture'/>
+    <h3>{props.car.nameTag}</h3>
+    <p>{props.car.year}</p>
     </div>
     
       </div>

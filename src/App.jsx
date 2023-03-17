@@ -11,21 +11,15 @@ function App() {
 
 const cardElements = carsData.map(car => {
   return <Card 
-  key = {car.key}
-  img = {car.img}
-  nameTag = {car.nameTag}
-  year = {car.year} 
+  car={car}
+ 
   />
 })
   return (
     <div>
       <h1>My dream cars</h1>
     <div className="box--avatar">
-      {/* <Card
-        img = {carImage1}
-        year="2002"
-        nameTag="Semerka"
-      /> */}
+     
       {cardElements}
       
       
